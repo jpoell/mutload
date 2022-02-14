@@ -11,9 +11,11 @@ The suggested workflow to derive duplex consensus reads requires the following s
 - gatk4 (alternatively Picard) for FastqToSam (4.2.4.0)
 - bwa (0.7.17)
 - samtools (1.12)
+
 Coverage pileup and rare somatic mutation counting requires:
 - bcftools (1.12)
 - R (3.6 or 4) and the foreach package
+
 Suggested versions are in parentheses. For most software newer versions are expected to work at well, except for UnifiedConsensusMaker.py (also see Notes below). 
 
 Notes:
