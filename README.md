@@ -19,4 +19,3 @@ Suggested versions are in parentheses. For most software newer versions are expe
 Notes:
 The Loeb lab has a newer version of their Duplex Consensus Sequencing Pipeline, but that is not the one used here.
 In our experience, bwa aln produced lower background than bwa mem.
-
