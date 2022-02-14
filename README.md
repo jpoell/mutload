@@ -16,7 +16,7 @@ Coverage pileup and rare somatic mutation counting requires:
 - bcftools (1.12)
 - R (3.6 or 4) and the foreach package
 
-Suggested versions are in parentheses. For most software newer versions are expected to work at well, except for UnifiedConsensusMaker.py (also see Notes below). 
+Suggested versions are in parentheses. For most software newer versions are expected to work as well, except for UnifiedConsensusMaker.py (also see Notes below). 
 
 Notes:
 The Loeb lab has a newer version of their Duplex Consensus Sequencing Pipeline, but that is not the one used here.
