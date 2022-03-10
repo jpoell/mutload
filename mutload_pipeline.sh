@@ -157,7 +157,7 @@ $samtools view -F 4 -b bam/$fname"_DCS_PE.aln.sort.bam" > bam/$fname"_DCS_PE.fil
 
 java -jar $picard AddOrReplaceReadGroups INPUT=bam/$fname"_DCS_PE.filt.bam" OUTPUT=bam/$fname"_DCS.bam" RGLB=UW RGPL=Illumina RGPU=ATATAT RGSM=default
 
-$samtools index bam/$fname"_DCS_PE.filt.rg.bam"
+$samtools index bam/$fname"_DCS.bam"
 
 
 
