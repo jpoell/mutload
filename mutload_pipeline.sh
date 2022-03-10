@@ -177,7 +177,7 @@ for i in bam/*_DCS.bam
 	bn=`basename $i`
 	export fname=${bn/_*/}
 	echo $fname
-	$bcftools mpileup -I -q 20 -Q 20 -a AD -f $ref -d 10000 -R $bed $i | perl -ne '
+	$bcftools mpileup -A -I -q 20 -Q 20 -a AD -f $ref -d 10000 -R $bed $i | perl -ne '
 		if ($_ =~ /#CHROM/) {print "Locus\tA\tC\tG\tT\tN";}
 		if ($_ =~ /^chr/) {
 			chomp $_;
